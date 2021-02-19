@@ -17,8 +17,8 @@
     "module": "es2020",
     "lib": ["es2018", "dom"],
     "paths": {
-      "@app/*": ["src/app/*"],
-      "@env/*": ["src/environments/*"]
+      "@philo/*": ["projects/philosophers/src/app/*"],
+      "@philo-env/*": ["projects/philosophers/src/environments/*"]
     }
   },
   "angularCompilerOptions": {

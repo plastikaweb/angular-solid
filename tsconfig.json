@@ -18,7 +18,13 @@
     "lib": ["es2018", "dom"],
     "paths": {
       "@philo/*": ["projects/philosophers/src/app/*"],
-      "@philo-env/*": ["projects/philosophers/src/environments/*"]
+      "@philo-env/*": [
+        "projects/philosophers/src/environments/*"
+      ],
+      "core": [
+        "dist/core/core",
+        "dist/core"
+      ]
     }
   },
   "angularCompilerOptions": {
